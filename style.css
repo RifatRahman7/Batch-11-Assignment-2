@@ -8,6 +8,10 @@ body {
     margin: 0px auto;
 }
 
+.images {
+    max-width: 100%;
+}
+
 .no {
     display: none;
 }
@@ -237,7 +241,6 @@ body {
 
 .kinder-para {
     color: rgb(128, 128, 128);
-    /* font-family: Raleway; */
     font-size: .97rem;
     font-weight: 500;
     line-height: 28.3px;
@@ -268,6 +271,7 @@ body {
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     text-align: center;
     padding: 40px;
+    /* max-width: 100%; */
 }
 
 .second {
@@ -363,6 +367,255 @@ body {
     text-align: center;
 }
 
+.part-3 {
+    background-image: url(./assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    max-width: 1440px;
+    height: 1018.02px;
+    justify-items: center;
+}
+
+.title-3 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 60px 0px 60px 0px;
+}
+
+
+.two-part {
+    display: flex;
+    padding: 50px;
+    margin: 0px auto;
+    justify-content: space-between;
+    max-width: 1160px;
+    gap: 25px;
+}
+
+.first-part {
+    max-width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.story1-pic {
+    border-radius: 16px 16px 0px 0px;
+
+    background: url(), rgb(217, 217, 217);
+}
+
+.btn-8 {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    border: none;
+    background: rgb(60, 216, 232);
+    max-width: 174.51px;
+    padding: 5px;
+    margin-top: -400px;
+}
+
+.story-1-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.four-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 601px;
+    height: 622.4px;
+    gap: 19px;
+}
+
+.img1 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 290.69px;
+}
+
+.img1>h3 {
+    padding: 20px;
+}
+
+.img2 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 290.69px;
+}
+
+.img2>h3 {
+    padding: 20px;
+}
+
+.img3 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 290.69px;
+}
+
+.img3>h3 {
+    padding: 20px;
+}
+
+.img4 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 290.69px;
+}
+
+.img4>h3 {
+    padding: 20px;
+}
+
+.image-four {
+    border-radius: 16px 16px 0px 0px;
+
+    background: url(), rgb(255, 255, 255);
+    /* Article */
+    /* position: relative; */
+    width: 291px;
+    height: 177px;
+}
+
+.shared-btn {
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    border: none;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: -500px;
+}
+
+.vwbtn {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    max-width: 197px;
+    border: none;
+    /* gap: 10px; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.vwbtn:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.footer-class {
+    background-color: rgb(1, 172, 253);
+    display: flex;
+    max-width: 1440px;
+    height: 350px;
+    left: 1px;
+    padding: 150px;
+    gap: 100px;
+}
+
+.bag-title {
+    display: flex;
+}
+
+.foot-logo {
+    background-color: #fff;
+}
+
+.kids-edu {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.635rem;
+    max-width: 206.11px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pizza {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 399.02px;
+}
+
+.abt-scl {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 156.36px;
+    margin-right: 50px;
+}
+
+.abt {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.keep {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.keep-logo {
+    max-width: 192.91px;
+    height: 40px;
+    gap: 5px;
+}
 
 /* responsive-style */
 
@@ -377,7 +630,8 @@ body {
     .nav-title,
     .middle-nav,
     .right-nav,
-    .arrow-btn {
+    .arrow-btn,
+    .first-part {
         display: none;
     }
 
@@ -399,16 +653,27 @@ body {
         letter-spacing: 0%;
         text-align: center;
         padding: 10px;
+        max-width: 357px;
     }
 
     .title-description {
         color: rgb(17, 17, 17);
         font-family: Quicksand;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: 500;
         line-height: 18px;
         letter-spacing: 0%;
         text-align: center;
+        max-width: 357px;
+    }
+
+    .title-2 {
+        max-width: 261px;
+        font-size: 1.62rem;
+    }
+
+    .title-3 {
+        font-size: 1.75rem;
     }
 
     .ban-2 {
@@ -421,7 +686,7 @@ body {
 
     .part-2 {
         position: static;
-        width: 357px;
+        max-width: 357px;
         height: 321.28px;
         display: flex;
         flex-direction: column;
@@ -434,5 +699,14 @@ body {
         align-self: stretch;
         flex-grow: 0;
         margin: 10px 0px;
+    }
+
+    .four-image {
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(2, 1fr); */
+        max-width: 550px;
+        /* height: 622.4px; */
+        gap: 19px;
     }
 }
