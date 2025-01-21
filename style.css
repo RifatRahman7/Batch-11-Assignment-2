@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+header,main {
     max-width: 1440px;
     margin: 0px auto;
 }
@@ -369,9 +369,9 @@ body {
 
 .part-3 {
     background-image: url(./assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-    max-width: 1440px;
     height: 1018.02px;
     justify-items: center;
+    margin: 0px auto;
 }
 
 .title-3 {
@@ -387,6 +387,7 @@ body {
 
 
 .two-part {
+    max-width: 1440px;
     display: flex;
     padding: 50px;
     margin: 0px auto;
@@ -547,6 +548,7 @@ body {
     left: 1px;
     padding: 150px;
     gap: 100px;
+    justify-items: center;
 }
 
 .bag-title {
