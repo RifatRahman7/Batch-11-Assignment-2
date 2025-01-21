@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-header,main {
+header,
+main {
     max-width: 1440px;
     margin: 0px auto;
 }
@@ -273,7 +274,6 @@ header,main {
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     text-align: center;
     padding: 40px;
-    /* max-width: 100%; */
 }
 
 .second {
@@ -317,7 +317,7 @@ header,main {
 }
 
 .btn-6 {
-    position: relative;
+    /* position: relative; */
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -405,8 +405,7 @@ header,main {
     height: 630.52px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    /* justify-content: space-between;
-    align-items: center; */
+
 }
 
 .story1-pic {
@@ -415,21 +414,25 @@ header,main {
     background: url(), rgb(217, 217, 217);
 }
 
+.pic-date {
+    position: relative;
+}
+
 .btn-8 {
     color: rgb(255, 255, 255);
-    font-family: Raleway;
-    font-size: 15.34px;
+    font-size: .9rem;
     font-weight: 500;
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
-    border-radius: 47.93px;
+    border-radius: 20px;
     border: none;
     background: rgb(60, 216, 232);
     max-width: 174.51px;
-    padding: 5px;
-    margin-top: -400px;
+    padding: 5px 40px;
+    position: absolute;
+    display: inline-block;
+    position: 0;
 }
 
 .story-1-title {
@@ -440,6 +443,21 @@ header,main {
     line-height: 38.35px;
     letter-spacing: 0%;
     text-align: left;
+    max-width: 402.49px;
+    padding-left: 38px;
+    padding-top: 38px;
+}
+
+.story-1-para {
+    color: rgb(102, 102, 102);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 433.06px;
+    align-items: center;
+    padding: 34px;
 }
 
 
@@ -455,6 +473,8 @@ header,main {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     max-width: 290.69px;
+
+
 }
 
 .img1>h3 {
@@ -495,14 +515,11 @@ header,main {
     border-radius: 16px 16px 0px 0px;
 
     background: url(), rgb(255, 255, 255);
-    /* Article */
-    /* position: relative; */
     width: 291px;
     height: 177px;
 }
 
 .shared-btn {
-    /* position: relative; */
     color: rgb(255, 255, 255);
     font-family: Raleway;
     font-size: .9rem;
@@ -528,7 +545,7 @@ header,main {
     letter-spacing: 0%;
     border-radius: 12px;
     background: rgb(17, 17, 17);
-    padding: 10px;
+    padding: 10px 40px;
     max-width: 197px;
     border: none;
 }
@@ -540,15 +557,21 @@ header,main {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.footer-class {
+footer {
+    margin: 0px auto;
     background-color: rgb(1, 172, 253);
+}
+
+.footer-class {
+
     display: flex;
-    max-width: 1440px;
+    max-width: 1160px;
     height: 350px;
     left: 1px;
-    padding: 150px;
+    padding: 123px;
     gap: 100px;
-    justify-items: center;
+    margin: 0px auto;
+    justify-content: center;
 }
 
 .bag-title {
@@ -676,6 +699,9 @@ header,main {
 
     .title-3 {
         font-size: 1.75rem;
+        padding: 40px 0px 40px 0px;
+        max-width: 390px;
+        background-color: tomato;
     }
 
     .ban-2 {
@@ -687,7 +713,6 @@ header,main {
     }
 
     .part-2 {
-        position: static;
         max-width: 357px;
         height: 321.28px;
         display: flex;
@@ -697,18 +722,47 @@ header,main {
         gap: 22;
         padding: 36px 28px 36px 28px;
         flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
         margin: 10px 0px;
     }
 
     .four-image {
-        display: flex;
-        flex-direction: column;
-        /* grid-template-columns: repeat(2, 1fr); */
-        max-width: 550px;
-        /* height: 622.4px; */
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
         gap: 19px;
+        height: auto;
     }
+
+    .footer-class {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 390px;
+        height: auto;
+        justify-content: flex-end;
+    }
+
+    .bag-title {
+        max-width: 250.16px;
+    }
+
+    .kids-edu {
+        font-size: 2.23rem;
+    }
+
+    .pizza {
+        font-size: 1rem;
+    }
+
+    .abt {
+        font-size: 1.1rem;
+    }
+
+    .abt-scl {
+        font-size: 1.27rem;
+    }
+
+    .keep {
+        font-size: 1.38rem;
+    }
+
 }
