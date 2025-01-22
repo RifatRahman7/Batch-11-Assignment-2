@@ -127,9 +127,9 @@ main {
 }
 
 .btn1:hover {
-    background-color: #fff;
-    color: black;
-    border: 2px solid black;
+    background-color: white;
+    color:black;
+    border: 1.5px solid black;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -191,9 +191,9 @@ main {
 }
 
 .btn2:hover {
-    background-color: #fff;
+    background-color: rgb(1, 172, 253);
     color: black;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -230,7 +230,12 @@ main {
     justify-items: center;
     padding: 40px;
 }
-
+.kinder-image:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .kinder-title {
     color: rgb(32, 32, 32);
     font-family: Quicksand;
@@ -263,6 +268,12 @@ main {
     text-align: center;
     padding: 40px;
 }
+.elementary-image:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 .middle-image {
     max-width: 367.8px;
@@ -275,7 +286,12 @@ main {
     text-align: center;
     padding: 40px;
 }
-
+.middle-image:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .second {
     background-image: url(./assets/bg.png);
 }
@@ -317,7 +333,6 @@ main {
 }
 
 .btn-6 {
-    /* position: relative; */
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -338,6 +353,9 @@ main {
     color: rgb(254, 163, 1);
     border: 2px solid rgb(254, 163, 1);
     transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .btn-7 {
@@ -362,6 +380,9 @@ main {
     color: rgb(254, 163, 1);
     border: 2px solid rgb(254, 163, 1);
     transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .arrow-btn {
@@ -540,10 +561,12 @@ main {
 }
 
 .vwbtn:hover {
-    background-color: #fff;
+    background-color: #c1b062;
     color: black;
-    border: 2px solid black;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.03);
+    box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 footer {
