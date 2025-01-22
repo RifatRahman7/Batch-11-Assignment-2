@@ -417,6 +417,7 @@ main {
 
 .pic-date {
     position: relative;
+    
 }
 
 .btn-8 {
@@ -433,6 +434,9 @@ main {
     padding: 5px 40px;
     display: inline-block;
     position: 0;
+    margin-left: 90px;
+    position: relative;
+    top: -20px;
 }
 
 .story-1-title {
@@ -521,19 +525,21 @@ main {
 
 .shared-btn {
     color: rgb(255, 255, 255);
-    font-family: Raleway;
     font-size: .9rem;
     font-weight: 500;
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: capitalize;
-    border-radius: 47.93px;
-    background: rgb(149, 178, 38);
+    border-radius: 20px;
     border: none;
-    padding: 5px;
-    margin-left: 50px;
-    margin-top: -500px;
+    background: rgb(60, 216, 232);
+    max-width: 174.51px;
+    padding: 5px 40px;
+    display: inline-block;
+    position: 0;
+    margin-left: 90px;
+    position: relative;
+    top: -20px;
 }
 
 .vwbtn {
