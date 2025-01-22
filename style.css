@@ -399,6 +399,7 @@ main {
     justify-content: space-between;
     max-width: 1160px;
     gap: 25px;
+    text-align: center;
 }
 
 .first-part {
@@ -417,7 +418,7 @@ main {
 
 .pic-date {
     position: relative;
-    
+
 }
 
 .btn-8 {
@@ -434,7 +435,7 @@ main {
     padding: 5px 40px;
     display: inline-block;
     position: 0;
-    margin-left: 90px;
+    /* margin-left: 90px; */
     position: relative;
     top: -20px;
 }
@@ -520,27 +521,8 @@ main {
 
     background: url(), rgb(255, 255, 255);
     width: 291px;
-    /* height: 177px; */
 }
 
-.shared-btn {
-    color: rgb(255, 255, 255);
-    font-size: .9rem;
-    font-weight: 500;
-    line-height: 28.76px;
-    letter-spacing: 0%;
-    text-align: left;
-    border-radius: 20px;
-    border: none;
-    background: rgb(60, 216, 232);
-    max-width: 174.51px;
-    padding: 5px 40px;
-    display: inline-block;
-    position: 0;
-    margin-left: 90px;
-    position: relative;
-    top: -20px;
-}
 
 .vwbtn {
     color: rgb(255, 255, 255);
@@ -707,7 +689,6 @@ footer {
         font-size: 1.75rem;
         padding: 40px 0px 40px 0px;
         max-width: 390px;
-        /* background-color: tomato; */
     }
 
     .ban-2 {
@@ -720,7 +701,6 @@ footer {
 
     .part-2 {
         max-width: 357px;
-        /* height: 321.28px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -771,8 +751,14 @@ footer {
     .keep {
         font-size: 1.38rem;
     }
-.two-part{
-    padding: 0px 5px;
-    margin-bottom: 1.75rem;
-}
+
+    .two-part {
+        padding: 0px 5px;
+        margin-bottom: 1.75rem;
+    }
+
+    .btn-8 {
+        padding: 3px 8px;
+        font-stretch: .6rem;
+    }
 }
