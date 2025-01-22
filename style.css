@@ -655,9 +655,8 @@ footer {
 }
 
 .keep-logo {
-    max-width: 192.91px;
+    max-width: 215.91;
     height: 40px;
-    gap: 5px;
 }
 
 .marq {
@@ -766,6 +765,7 @@ footer {
         height: auto;
         justify-content: flex-end;
         padding-left: 30px;
+        gap: 80px;
     }
 
     .bag-title {
