@@ -689,8 +689,9 @@ footer {
     }
 
     .title-2 {
-        max-width: 261px;
         font-size: 1.62rem;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .title-3 {
