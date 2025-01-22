@@ -128,7 +128,7 @@ main {
 
 .btn1:hover {
     background-color: white;
-    color:black;
+    color: black;
     border: 1.5px solid black;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -230,12 +230,14 @@ main {
     justify-items: center;
     padding: 40px;
 }
-.kinder-image:hover{
+
+.kinder-image:hover {
     transform: scale(1.03);
     box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
     background-color: rgba(255, 255, 255, 0.95);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .kinder-title {
     color: rgb(32, 32, 32);
     font-family: Quicksand;
@@ -268,7 +270,8 @@ main {
     text-align: center;
     padding: 40px;
 }
-.elementary-image:hover{
+
+.elementary-image:hover {
     transform: scale(1.03);
     box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
     background-color: rgba(255, 255, 255, 0.95);
@@ -286,12 +289,14 @@ main {
     text-align: center;
     padding: 40px;
 }
-.middle-image:hover{
+
+.middle-image:hover {
     transform: scale(1.03);
     box-shadow: 2px 10px 30px rgba(1, 28, 36, 0.1);
     background-color: rgba(255, 255, 255, 0.95);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .second {
     background-image: url(./assets/bg.png);
 }
@@ -457,8 +462,9 @@ main {
     position: relative;
     top: -20px;
 }
-.bt-8{
-    background-color: rgb(149, 178, 38);;
+
+.bt-8 {
+    background-color: rgb(149, 178, 38);
 }
 
 
@@ -484,7 +490,7 @@ main {
     text-align: center;
     max-width: 433.06px;
     align-items: center;
-    padding: 34px;
+    padding-left: 40px;
 }
 
 
@@ -505,7 +511,7 @@ main {
 }
 
 .img1>h3 {
-    padding: 20px;
+    padding: 18px;
 }
 
 .img2 {
@@ -515,7 +521,7 @@ main {
 }
 
 .img2>h3 {
-    padding: 20px;
+    padding: 18px;
 }
 
 .img3 {
@@ -653,11 +659,12 @@ footer {
     height: 40px;
     gap: 5px;
 }
-.marq{
+
+.marq {
     font-size: 1rem;
     font-weight: 600;
     color: rgb(229, 202, 26);
-    background-image: url(),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-image: url(), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
     padding: 10px;
 }
 
