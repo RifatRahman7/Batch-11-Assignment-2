@@ -766,6 +766,7 @@ footer {
         justify-content: flex-end;
         padding-left: 30px;
         gap: 32px;
+        padding-left: 45px;
     }
 
     .bag-title {
