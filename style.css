@@ -516,7 +516,7 @@ main {
 
     background: url(), rgb(255, 255, 255);
     width: 291px;
-    height: 177px;
+    /* height: 177px; */
 }
 
 .shared-btn {
@@ -701,7 +701,7 @@ footer {
         font-size: 1.75rem;
         padding: 40px 0px 40px 0px;
         max-width: 390px;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
 
     .ban-2 {
@@ -714,7 +714,7 @@ footer {
 
     .part-2 {
         max-width: 357px;
-        height: 321.28px;
+        /* height: 321.28px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -730,6 +730,7 @@ footer {
         max-width: 100%;
         gap: 19px;
         height: auto;
+        padding: .8rem;
     }
 
     .footer-class {
